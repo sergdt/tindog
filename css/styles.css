@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#title {
+    background-color: #ff4c68;
+    height: auto;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Navbar styles */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-tiem {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.phone-image {
+    width: 60%;
+    -webkit-transform: rotate(20deg);
+    /* Chrome, Safari, Opera */
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    /* Standard syntax */
+}
