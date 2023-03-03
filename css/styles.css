@@ -55,17 +55,24 @@ h2 {
 /* Title Image */
 
 .phone-image {
-    width: 60%;
-    -webkit-transform: rotate(20deg);
-    /* Chrome, Safari, Opera */
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
-    /* Standard syntax */
+    width: 45%;
+    transform: rotate(25deg);
+    margin-bottom: -60%;
+    
+}
+
+.title-image-container {
+    position: relative;
 }
 
 /* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
 
 #features h3 {
     font-weight: bold;
@@ -78,8 +85,7 @@ h2 {
 
 #features .feature-icons {
     color: #ef8172;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    
 }
 
 #features .feature-icons:hover {
@@ -118,4 +124,17 @@ h2 {
     margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
 
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.class-body {
+    margin-bottom: 20px;
+}
