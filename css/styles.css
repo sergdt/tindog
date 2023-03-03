@@ -138,3 +138,45 @@ h2 {
 .class-body {
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call To Action */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+
+}
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+.call-action-btn {
+    text-align: center;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
