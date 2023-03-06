@@ -1,25 +1,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
-}
-#title {
-    background-color: #ff4c68;
+    text-align: center;
 }
 
-.container-fluid {
-    padding: 3% 15%;
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
-h1 {
+
+/* Heading */
+
+.principal-heading {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
     color: white;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+.white-section {
+    background-color: white;
+}
+
+.section-heading {
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -46,28 +61,42 @@ h2 {
     font-weight: 500;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+
+.phone-image {
+    width: 45%;
+    transform: rotate(25deg);
+    margin-bottom: -60%;
+    
+}
+
+.title-image-container {
+    position: relative;
+}
+
 /* Buttons */
 
 .download-button {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
 
-.phone-image {
-    width: 60%;
-    -webkit-transform: rotate(20deg);
-    /* Chrome, Safari, Opera */
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
-    /* Standard syntax */
-}
 
 /* Features */
 
-#features h3 {
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -78,8 +107,7 @@ h2 {
 
 #features .feature-icons {
     color: #ef8172;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    
 }
 
 #features .feature-icons:hover {
@@ -89,10 +117,7 @@ h2 {
 /* Testimonial Section */
 
 #testimonials {
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
-    color: white;
 }
 
 .testimonial-image {
@@ -101,15 +126,15 @@ h2 {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Press Section */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -118,4 +143,41 @@ h2 {
     margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
 
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.class-body {
+    margin-bottom: 20px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CTA Section */
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* jQuerys */
+
+@media only screen and (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
